@@ -170,8 +170,6 @@ export default class ViewMedicine extends Component {
           maxStars={5}
           rating={item.AverageRate}
           fullStarColor={'orange'}
-          // rating={this.state.starCount}
-          // selectedStar={(rating) => this.onStarRatingPress(rating)}
         />
 
         <Text style={{fontSize: 16}}>
